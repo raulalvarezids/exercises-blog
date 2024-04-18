@@ -1,0 +1,41 @@
+.card__data{    
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-inline: auto;    
+    height: 100px;
+    border-radius: 10px;  
+    gap: 10px;          
+    border: 2px solid #FFFFFF;    
+    padding: 5px;    
+    cursor: pointer;   
+}
+
+
+.card__img{    
+    width: 70px;
+    height: auto;    
+    border-radius: 10px;
+}
+
+.card__tittle{             
+    font-size: 25px;
+    color: #FFA826;
+}
+
+
+@media (min-width:768px) {
+   
+    .card__tittle{              
+        font-size: 18px;
+    }
+    
+}
+
+
+@media (min-width:1440px) {
+    .card__tittle{
+        font-size: 27px;
+        
+    }    
+}

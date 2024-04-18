@@ -1,0 +1,59 @@
+.show__ejer__title{
+
+
+    margin: 0 auto;
+    display: flex;    
+    justify-content: space-around;    
+    align-items: center;
+    
+    margin-bottom: 30px;
+
+
+
+    border-radius: 10px;
+    height: 45px;    
+
+}
+
+
+.back__img{
+    width: 28px;
+    height: 28px; 
+    background-color: #FFA826;
+    border-radius: 50%;
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+.back__tittle{
+    font-size: 20px;
+}
+
+.muclse__name{
+    color: #FFA826;
+}
+
+
+.all__ejer__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width:1200px) {
+
+    .show__ejer__title{
+        height: 60px;    
+
+    }
+    
+    .back__img{
+        width: 35px;
+        height: 35px;        
+    }
+    
+    .back__tittle{
+        font-size: 30px;
+    }
+}

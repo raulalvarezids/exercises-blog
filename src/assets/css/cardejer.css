@@ -1,0 +1,140 @@
+.card__ejer__main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.content__data{    
+    max-height: 0;
+    overflow: hidden;    
+}
+
+.showcard{         
+    max-height: 1000px;
+    transition: max-height 0.7s;    
+    display: flex;
+    flex-direction: column;         
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    gap: 10px;
+    padding-top: 10px; 
+    border: 1px solid #FFFF;
+    border-top: none;
+    margin-top: -2px;
+    padding-top: 30px
+}
+
+
+.name__container{        
+
+    border-radius: 3px;    
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;      
+    
+    border: 1px solid #FFFF;
+    cursor: pointer;
+}
+
+.arrowdown{
+    width: 20px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+
+.changer {
+    transform: rotate(180deg); 
+}
+
+.name{                   
+    font-size: 16px;
+    width: 80%;    
+}
+
+.img__exersi{
+    width: 200px;
+    border-radius: 10px;    
+    margin: 0 auto;
+}
+
+
+.body{  
+    text-align: center;        
+}
+
+
+.equipamiento{
+    text-align: center;     
+}
+
+.bds{
+    color: #FFA826;
+}
+
+
+.container__instruc{    
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 14px;       
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+}
+
+.instruc{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item__ul::marker{
+    color:#FFA826;
+}
+
+
+
+@media (min-width:1200px) {
+    
+    .name{                   
+        font-size: 24px;        
+    }
+    .arrowdown{
+        width: 30px;
+      
+    }
+    
+    .name__container{                
+        min-height: 50px;      
+    }
+    
+    .img__exersi{
+        width: 310px;
+    }
+
+    .body{          
+        font-size: 20px;
+    }
+    
+    
+    .equipamiento{
+        font-size: 20px;
+    }
+    
+
+    .showcard{                          
+        gap: 15px;    
+    }
+
+    .ins__tittle{
+        font-size: 20px;        
+    }
+
+    .item__ul{
+        font-size: 17px;
+    }
+}
+

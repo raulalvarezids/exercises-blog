@@ -1,0 +1,28 @@
+.allconatiner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width:1000px) {
+
+    .allconatiner{       
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(110px, auto);        
+        padding: 15px;
+    }   
+    
+}
+
+
+@media (min-width:1440px) {
+
+
+   
+    .allconatiner{       
+        width: 90%;        
+        margin: 0 auto;
+    }  
+}
