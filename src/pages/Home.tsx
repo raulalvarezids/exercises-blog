@@ -20,8 +20,8 @@ function Home() {
             method: 'GET',
             url: 'https://exercisedb.p.rapidapi.com/exercises/targetList',
             headers: {
-                'X-RapidAPI-Key': '1bcb6ecc0fmsh3c4b95b72029fa3p1210d2jsn80ee78b61131',
-                'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
+                'X-RapidAPI-Key': import.meta.env.VITE_KEY,
+                'X-RapidAPI-Host': import.meta.env.VITE_HOST
             }
         };
 
