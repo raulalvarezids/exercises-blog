@@ -5,7 +5,7 @@ import {  useState } from "react";
 
 
 
-function CardEjer({bodyPart,equipment,gifUrl,id,instructions,name,secondaryMuscles,target} : Exer) {
+function CardEjer({bodyPart,equipment,gifUrl,instructions,name} : Exer) {
     
     const [show,setShow] = useState<boolean>(false)
     
